@@ -1,0 +1,138 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #40e0d0;
+    margin: 0;
+}
+
+header {
+    background-color: #1c1c1c;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    background-color: #1c1c1c;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.currency-selector{
+    background-color: rgba(65, 56, 81, 0.912);
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.buy-btn {
+    background-color: rgba(65, 56, 81, 0.912);
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.connect-telegram {
+    background-color: #40e0d0;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* Best Price Section */
+#best-price {
+    margin: 20px 0;
+}
+
+.price-para{
+    color: lightgray;
+    font-size: 1rem;
+}
+
+.price-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.percent-stat {
+    color: #40e0d0;
+    font-size: 1.2rem;
+}
+
+.main-price {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Table Styles */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: separate;
+    border: 2px none ;
+    border-spacing: 0 10px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: none;
+}
+
+table thead {
+    color: lightslategray;
+    background-color: #1c1c1c;
+}
+
+table tbody tr {
+    background-color: rgba(65, 56, 81, 0.912);
+}
+
+
+
+table tbody td {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
+
+.add-to-home {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px #40e0d0 solid;
+    border-radius: 20px;
+    color: #40e0d0;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.green{
+    color: lightgreen;
+}
+
+.red{
+    color: red;
+}

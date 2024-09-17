@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HodlInfo Clone</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="logo">HODLINFO</h1>
+            <div class="nav">
+                <select class="currency-selector">
+                    <option value="INR">INR</option>
+                </select>
+                <select class="currency-selector">
+                    <option value="BTC">BTC</option>
+                </select>
+                <button class="buy-btn">BUY BTC</button>
+            </div>
+            <button class="connect-telegram">Connect Telegram</button>
+        </div>
+    </header>
+
+    <section id="best-price">
+        <p class="price-para">Best Price to Trade</p>
+        <div class="price-stats">
+            <div class="percent-stat">0.1 % <br> <p class="price-para">5 Mins</p></div>
+            <div class="percent-stat">0.96 % <br> <p class="price-para">1 Hour</p></div>
+            <div class="main-price">₹ 26,56,110 <br><p class="price-para">Average BTC/INR net price including commission</p></div>
+            <div class="percent-stat">2.73 % <br> <p class="price-para">1 Day</p></div>
+            <div class="percent-stat">7.51 % <br> <p class="price-para">7 Days</p></div>
+        </div>
+
+       
+        
+    </section>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Platform</th>
+                <th>Last Traded Price</th>
+                <th>Buy / Sell Price</th>
+                <th>Difference</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tbody id="crypto-table">
+
+        </tbody>
+    </table>
+
+    <footer>
+        <button class="add-to-home">Add hodlinfo to home screen</button>
+    </footer>
+
+    <script src="/app.js" defer></script>
+</body>
+</html>
